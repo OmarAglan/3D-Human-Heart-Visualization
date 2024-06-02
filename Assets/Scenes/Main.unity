@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31429157, g: 0.045647837, b: 0.045647837, a: 1}
+  m_IndirectSpecularColor: {r: 0.2842761, g: 0.12710586, b: 0.12710586, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -258,7 +258,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1e-44, z: 1.0606e-41, w: -10}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 4.5904e-41, w: 6.133509e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -673,6 +673,26 @@ PrefabInstance:
     - target: {fileID: 6079321788353375543, guid: d5a183bedbc2b964685dd2a8a8e3d1ad,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997529783470020019, guid: d5a183bedbc2b964685dd2a8a8e3d1ad,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997529783470020019, guid: d5a183bedbc2b964685dd2a8a8e3d1ad,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997529783470020019, guid: d5a183bedbc2b964685dd2a8a8e3d1ad,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997529783470020019, guid: d5a183bedbc2b964685dd2a8a8e3d1ad,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
